@@ -18,8 +18,14 @@
   
   function atualizarListaDeNomes() {
     let listaAmigos = document.getElementById('listaAmigos');
-    listaAmigos.textContent = `Nomes dos participantes do sorteio: ${listaDeNomes.join(',')}`;
-  }
+    listaAmigos.innerHTML = "" ;
+
+    listaDeNomes.forEach((amigo) => {
+      let li = document.createElement('li'); // Cria um novo item de lista
+      li.textContent = amigo; // Define o texto do item como o nome do amigo
+      listaAmigos.appendChild(li); // Adiciona o item à lista
+  });
+  };
   
   function sortearAmigo() {
   
