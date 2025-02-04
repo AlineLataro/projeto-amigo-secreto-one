@@ -21,9 +21,9 @@
     listaAmigos.innerHTML = "" ;
 
     listaDeNomes.forEach((amigo) => {
-      let li = document.createElement('li'); // Cria um novo item de lista
-      li.textContent = amigo; // Define o texto do item como o nome do amigo
-      listaAmigos.appendChild(li); // Adiciona o item à lista
+      let li = document.createElement('li'); 
+      li.textContent = amigo; 
+      listaAmigos.appendChild(li); 
   });
   };
   
