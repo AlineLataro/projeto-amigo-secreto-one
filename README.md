@@ -16,8 +16,7 @@ O usuário pode realizar o sorteio, que seleciona aleatoriamente um dos amigos d
 Após adicionar um amigo, o campo de entrada é limpo automaticamente, pronto para receber o próximo nome. 
 
 #  Tecnologias Utilizadas
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
-           Para a estrutura da página.  
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threedsmax/threedsmax-original.svg" width="40" height="40"/> Para a estrutura da página.  
 -  CSS: Para a estilização (não incluído no código, mas pode ser adicionado).  
 -   JavaScript: Para a lógica de adição de amigos e sorteio.
   
